@@ -5,36 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Renovation</title>
+    <link rel="icon" rel="image/svg+xml" href="favicon.svg">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main.min.css">
 </head>
 <body>
-    <header>
-        <a href="">
+    <header class="header container">
+        <div class="top-header">
+  <a href="">
             <svg width="90" height="90">
                 <use href="images/symbol.svg#logo"></use>
             </svg>
         </a>
-        <p>Moscowqual</p>
-        <p>Ремонт бытовой техники</p>
-        <ul>
-            <li><a aria-label="instagram" href="">
+        <div>
+         <p>Moscowqual</p>
+        <p>Ремонт бытовой техники</p>   
+        </div>
+        
+        <ul class="list">
+            <li class="item"><a class="link" aria-label="instagram" href="">
 <svg width="29" height="29">
     <use href="images/symbol.svg#instagram"></use>
 </svg>
             </a></li>
-            <li><a aria-label="contact" href="">
+            <li class="item"><a class="link" aria-label="contact" href="">
 <svg width="29" height="29">
     <use href="images/symbol.svg#vk"></use>
 </svg>
             </a></li>
-            <li><a aria-label="telegram" href="">
+            <li class="item"><a class="link" aria-label="telegram" href="">
 <svg width="30" height="30">
     <use href="images/symbol.svg#telegram"></use>
 </svg>
             </a></li>
-            <li><a aria-label="whatsapp" href="">
+            <li class="item"><a class="link" aria-label="whatsapp" href="">
 <svg width="30" height="30">
     <use href="images/symbol.svg#whatsapp"></use>
 </svg>
@@ -45,20 +50,26 @@
         </svg>
         <a href="tel:+74957556983">+1(111) 111 11 11</a>
         <button type="button">Заказать звонок</button>
-        <nav>
-            <ul>
-                <li><a href="">Главная</a></li>
-                <li><a href="">Услуги и цены</a></li>
-                <li><a href="">Гарантия</a></li>
-                <li><a href="">Юр.лица</a></li>
-                <li><a href="">Контакты</a></li>
-                <li><a href="">Вопрос-ответ</a></li>
-                <li><a href="">Полезная информация</a></li>
-            </ul>
-        </nav>
+        </div>
+      
+
+
+
+        
     </header>
     <main>
         <section>
+   <nav class="nav">
+            <ul class="nav__list list">
+                <li class="nav__item"><a class="nav__link link" href="">Главная</a></li>
+                <li class="nav__item"><a class="nav__link link" href="">Услуги и цены</a></li>
+                <li class="nav__item"><a class="nav__link link" href="">Гарантия</a></li>
+                <li class="nav__item"><a class="nav__link link" href="">Юр.лица</a></li>
+                <li class="nav__item"><a class="nav__link link" href="">Контакты</a></li>
+                <li class="nav__item"><a class="nav__link link" href="">Вопрос-ответ</a></li>
+                <li class="nav__item"><a class="nav__link link" href="">Полезная информация</a></li>
+            </ul>
+        </nav> 
             <h1>Ремонт стиральных машин в нашем городе</h1>
             <ul>
                 <li>Отличные цены на запчасти</li>
@@ -68,8 +79,8 @@
             </ul>
         </section>
         <section>
-            <h2></h2>
-            <ul>
+            <h2>Наши услуги</h2>
+            <ul class="list">
                 <li width="97" height="97">
                     <svg width="75" height="75">
                         <use href="images/symbol.svg#minutes">
@@ -80,7 +91,7 @@
                 </li>
                 <li width="97" height="97">
                     <svg width="60" height="60">
-                        <use href="images/symbol.svg#">
+                        <use href="images/symbol.svg#interactive">
                            
                         </use>
                     </svg>
@@ -88,7 +99,7 @@
                 </li>
                 <li width="97" height="97">
                     <svg width="60" height="60">
-                        <use href="images/symbol.svg#">
+                        <use href="images/symbol.svg#quality">
                             
                         </use>
                     </svg>
@@ -96,7 +107,7 @@
                 </li>
                 <li width="97" height="97">
                     <svg width="65" height="65">
-                        <use href="images/symbol.svg#">
+                        <use href="images/symbol.svg#guarantee">
                            
                         </use>
                     </svg>

@@ -1,0 +1,30 @@
+@import 'utils/variables';
+@import 'components/container';
+@import 'layouts/navigation';
+// @import 'layouts/header';
+body{
+    font-family: 'Roboto', sans-serif;
+     font-weight: 500;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+}
+.link{
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+}
