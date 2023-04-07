@@ -21,10 +21,20 @@
   line-height: 1.19px;
   color: $text-black;
   font-weight: 500;
+  transition: color 250ms $timing-function;
+
+  &:hover,&:focus{
+    color: $color-accent;
+   font-weight: 800;
+  }
 }
 .nav__item:first-child {
   padding-left: 63px;
 }
 .nav__item:last-child {
   padding-right: 63px;
+}
+.current{
+  font-weight: 700;
+  text-decoration: underline;
 }

@@ -1,0 +1,6 @@
+@mixin colorCall ($color) {
+    color:$color;
+}
+@mixin fillCall ($fill) {
+    fill:$fill;
+}

@@ -12,20 +12,22 @@
 </head>
 <body>
     <header class="header container">
-        <div class="top-header">
-  <a href="">
-            <svg width="90" height="90">
-                <use href="images/symbol.svg#logo"></use>
-            </svg>
-        </a>
-        <div>
-         <p>Moscowqual</p>
-        <p>Ремонт бытовой техники</p>   
-        </div>
+     
+ <div class="logo">
+     <a class="logo__link" href="">
+               <svg class="logo__icon" width="90" height="90">
+                   <use href="images/symbol.svg#logo"></use>
+               </svg>
+           </a>
+           <div class="logo__description">
+            <p class="logo__description--name">Moscowqual</p>
+           <p class="logo__description--text">Ремонт бытовой техники</p>   
+           </div>
+ </div>
         
-        <ul class="list">
+        <ul class="social__list list">
             <li class="item"><a class="link" aria-label="instagram" href="">
-<svg width="29" height="29">
+<svg class="social__instagram" width="29" height="29">
     <use href="images/symbol.svg#instagram"></use>
 </svg>
             </a></li>
@@ -45,23 +47,22 @@
 </svg>
             </a></li>
         </ul>
-        <svg width="20" height="20">
+        <div class="social">
+           <svg class="call__logo" width="20" height="20">
             <use href="images/symbol.svg#telephone"></use>
         </svg>
-        <a href="tel:+74957556983">+1(111) 111 11 11</a>
-        <button type="button">Заказать звонок</button>
+        <a class="call__link link" href="tel:+74957556983">+1(111) 111 11 11</a>
+        <button class="call__btn" type="button">Заказать звонок</button>  
         </div>
-      
-
-
-
-        
+       
+       
+       
     </header>
     <main>
         <section>
    <nav class="nav">
             <ul class="nav__list list">
-                <li class="nav__item"><a class="nav__link link" href="">Главная</a></li>
+                <li class="nav__item"><a class="nav__link link current" href="">Главная</a></li>
                 <li class="nav__item"><a class="nav__link link" href="">Услуги и цены</a></li>
                 <li class="nav__item"><a class="nav__link link" href="">Гарантия</a></li>
                 <li class="nav__item"><a class="nav__link link" href="">Юр.лица</a></li>

@@ -1,0 +1,23 @@
+.logo {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  margin-right: 84px;
+}
+.logo__link {
+  transition: 250ms transform $timing-function;
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+.logo__description--name {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  color: $text-white;
+}
+.logo__description--text {
+  font-size: 18px;
+  line-height: 1.17;
+  color: $text-white;
+}
