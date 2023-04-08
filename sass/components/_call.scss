@@ -10,7 +10,10 @@
   font-size: 15px;
   line-height: 1.2;
   @include colorCall(#ffffff);
-  
+  &:hover,&:focus{
+     text-shadow: 1px 1px 2px black, 0 0 1em #ffffff, 0 0 0.2em #ffffff; 
+  }
+ transition: 250ms box-shadow $timing-function;
 }
 .call__btn {
   min-width: 161px;
@@ -21,4 +24,9 @@
   border: 1px solid $text-white;
   border-radius: 8px;
   background-color: transparent;
+  &:hover,
+    &:focus {
+      box-shadow: 1px 1px 2px black, 0 0 1em #ffffff, 0 0 0.2em #ffffff;
+    }
+    transition: 250ms box-shadow $timing-function;
 }

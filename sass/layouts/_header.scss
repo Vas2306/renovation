@@ -1,4 +1,13 @@
 .header{
+    
+
     background-color: #003f7f
     ;
+}
+.header__wrap{
+display: flex;
+justify-content: space-between;
+}
+.header__wrap--secondary {
+    display: flex;
 }

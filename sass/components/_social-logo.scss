@@ -1,7 +1,17 @@
+
 .social__list{
     display: flex;
     gap: 11px;
+    align-items: center;
+   
 }
+
 .social__instagram{
     fill: #ff4e0e;
+}
+.sosial__link{
+    &:hover,&:focus{
+        transform: scale(1.2);
+    }
+    transition: 250ms transform $timing-function;
 }
