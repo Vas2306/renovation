@@ -274,8 +274,39 @@ img {
   justify-content: center;
   width: 97px;
   height: 97px;
-  border-radius: 50%;
+  margin-bottom: 31px;
   margin-right: auto;
   margin-left: auto;
+  border-radius: 50%;
   background-color: #FFFFFF;
+}
+
+.answer__wrupper {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1920px;
+  height: 887px;
+  background-image: url(../../images/washing-min.jpg), url(../../images/star-min.png);
+  background-repeat: no-repeat;
+  background-position: left 0 top 80px, center;
+}
+
+.answer__block {
+  margin-left: 1050px;
+  margin-right: 300px;
+  padding-top: 302px;
+}
+
+.answer__title {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.19;
+  color: #000000;
+  margin-bottom: 35px;
+}
+
+.answer__text {
+  font-size: 15px;
+  line-height: 1.19;
+  margin-bottom: 35px;
 }/*# sourceMappingURL=main.css.map */
