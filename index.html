@@ -1,128 +1,164 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Renovation</title>
-    <link rel="icon" rel="image/svg+xml" href="favicon.svg">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/main.min.css">
-</head>
-<body>
+    <link rel="icon" rel="image/svg+xml" href="favicon.svg" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/main.min.css" />
+  </head>
+  <body>
     <header class="header">
+      <div class="container header__wrap">
+        <div class="header__wrap--secondary">
+          <div class="logo">
+            <a class="logo__link" href="">
+              <svg class="logo__icon" width="90" height="90">
+                <use href="images/symbol.svg#logo"></use>
+              </svg>
+            </a>
+            <div class="logo__description">
+              <p class="logo__description--name">Moscowqual</p>
+              <p class="logo__description--text">Ремонт бытовой техники</p>
+            </div>
+          </div>
 
-     
- <div class="container header__wrap">
+          <ul class="social__list list">
+            <li class="item">
+              <a class="link sosial__link" aria-label="instagram" href="">
+                <svg class="social__instagram" width="29" height="29">
+                  <use href="images/symbol.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="item">
+              <a class="link sosial__link" aria-label="contact" href="">
+                <svg width="29" height="29">
+                  <use href="images/symbol.svg#vk"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="item">
+              <a class="link sosial__link" aria-label="telegram" href="">
+                <svg width="30" height="30">
+                  <use href="images/symbol.svg#telegram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="item">
+              <a class="link sosial__link" aria-label="whatsapp" href="">
+                <svg width="30" height="30">
+                  <use href="images/symbol.svg#whatsapp"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
 
-   <div class="header__wrap--secondary">
-     <div class="logo">
-         <a class="logo__link" href="">
-                   <svg class="logo__icon" width="90" height="90">
-                       <use href="images/symbol.svg#logo"></use>
-                   </svg>
-               </a>
-               <div class="logo__description">
-                <p class="logo__description--name">Moscowqual</p>
-               <p class="logo__description--text">Ремонт бытовой техники</p>   
-               </div>
-     </div>
-            
-            <ul class="social__list list">
-                <li class="item"><a class="link sosial__link" aria-label="instagram" href="">
-     <svg class="social__instagram" width="29" height="29">
-        <use href="images/symbol.svg#instagram"></use>
-     </svg>
-                </a></li>
-                <li class="item"><a class="link sosial__link" aria-label="contact" href="">
-     <svg width="29" height="29">
-        <use href="images/symbol.svg#vk"></use>
-     </svg>
-                </a></li>
-                <li class="item"><a class="link sosial__link" aria-label="telegram" href="">
-     <svg width="30" height="30">
-        <use href="images/symbol.svg#telegram"></use>
-     </svg>
-                </a></li>
-                <li class="item"><a class="link sosial__link" aria-label="whatsapp" href="">
-     <svg width="30" height="30">
-        <use href="images/symbol.svg#whatsapp"></use>
-     </svg>
-                </a></li>
-            </ul>
-   </div>
-
-           <div class="social">
-              <svg class="call__logo" width="20" height="20">
-               <use href="images/symbol.svg#telephone"></use>
-           </svg>
-           <a class="call__link link" href="tel:+74957556983">+1(111) 111 11 11</a>
-           <button class="call__btn" type="button">Заказать звонок</button>  
-           </div>
- </div>
-       
-       
-       
+        <div class="social">
+          <svg class="call__logo" width="20" height="20">
+            <use href="images/symbol.svg#telephone"></use>
+          </svg>
+          <a class="call__link link" href="tel:+74957556983"
+            >+1(111) 111 11 11</a
+          >
+          <button class="call__btn" type="button">Заказать звонок</button>
+        </div>
+      </div>
     </header>
     <main>
-        <section>
-   <nav class="nav">
+      <section class="hero">
+        <div class="container">
+          <nav class="nav">
             <ul class="nav__list list">
-                <li class="nav__item"><a class="nav__link link current" href="">Главная</a></li>
-                <li class="nav__item"><a class="nav__link link" href="">Услуги и цены</a></li>
-                <li class="nav__item"><a class="nav__link link" href="">Гарантия</a></li>
-                <li class="nav__item"><a class="nav__link link" href="">Юр.лица</a></li>
-                <li class="nav__item"><a class="nav__link link" href="">Контакты</a></li>
-                <li class="nav__item"><a class="nav__link link" href="">Вопрос-ответ</a></li>
-                <li class="nav__item"><a class="nav__link link" href="">Полезная информация</a></li>
+              <li class="nav__item">
+                <a class="nav__link link current" href="">Главная</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link link" href="">Услуги и цены</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link link" href="">Гарантия</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link link" href="">Юр.лица</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link link" href="">Контакты</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link link" href="">Вопрос-ответ</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link link" href="">Полезная информация</a>
+              </li>
             </ul>
-        </nav> 
-            <h1>Ремонт стиральных машин в нашем городе</h1>
-            <ul>
-                <li>Отличные цены на запчасти</li>
-                <li>Фирменная гарантия на все работы</li>
-                <li>Ремонт в день обращения</li>
-                <button type="button">Заказать ремонт</button>
+          </nav>
+          <div class="hero-secondary">
+            <h1 class="hero-secondary__title">
+              Ремонт стиральных машин <br />
+              в нашем городе
+            </h1>
+            <ul class="hero-secondary__list">
+              <li class="hero-secondary__item">Отличные цены на запчасти</li>
+              <li class="hero-secondary__item">
+                Фирменная гарантия на все работы
+              </li>
+              <li class="hero-secondary__item">Ремонт в день обращения</li>
             </ul>
-        </section>
-        <section>
-            <h2>Наши услуги</h2>
-            <ul class="list">
-                <li width="97" height="97">
-                    <svg width="75" height="75">
-                        <use href="images/symbol.svg#minutes">
-                            
-                        </use>
-                    </svg>
-                    <p></p>
-                </li>
-                <li width="97" height="97">
-                    <svg width="60" height="60">
-                        <use href="images/symbol.svg#interactive">
-                           
-                        </use>
-                    </svg>
-                     <p></p>
-                </li>
-                <li width="97" height="97">
-                    <svg width="60" height="60">
-                        <use href="images/symbol.svg#quality">
-                            
-                        </use>
-                    </svg>
-                    <p></p>
-                </li>
-                <li width="97" height="97">
-                    <svg width="65" height="65">
-                        <use href="images/symbol.svg#guarantee">
-                           
-                        </use>
-                    </svg>
-                     <p></p>
-                </li>
-            </ul>
-        </section>
+            <button class="hero-secondary__btn" type="button">
+              Заказать ремонт
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="services">
+        <div class="container services__container">
+          <h2 class="visually-hidden">Наши услуги</h2>
+          <ul class="list services__list">
+            <li class="services__item" width="97" height="97">
+            <div class="service__logo--thumb">
+                  <svg class="services__logo" width="75" height="75">
+                    <use href="images/symbol.svg#minutes"></use>
+                  </svg>
+            </div>
+              <p class="services__text">Выезд мастера <br> в течение 60 мин.</p>
+            </li>
+            <li class="services__item" width="97" height="97">
+              <svg class="services__logo" width="60" height="60">
+                <use href="images/symbol.svg#interactive"></use>
+              </svg>
+              <p class="services__text">Бесплатная экспресс- <br> диагностика</p>
+            </li>
+            <li class="services__item" width="97" height="97">
+              <svg class="services__logo" width="60" height="60">
+                <use href="images/symbol.svg#quality"></use>
+              </svg>
+              <p class="services__text">Ремонт оригинальными <br> комплектующими</p>
+            </li>
+            <li class="services__item" width="97" height="97">
+              <svg class="services__logo" width="65" height="65">
+                <use href="images/symbol.svg#guarantee"></use>
+              </svg>
+              <p class="services__text">
+                Гарантия каждому <br> владельцу до 2-х лет
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
-</body>
+  </body>
 </html>

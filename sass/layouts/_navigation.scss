@@ -10,7 +10,6 @@
   padding-right: 63px;
 
   background-color: $bg-white;
-  border: 1px solid $text-black;
   border-radius: 0px 0px 20px 20px;
 }
 .nav__link {
@@ -25,7 +24,6 @@
 
   &:hover,&:focus{
     color: $color-accent;
-   font-weight: 800;
   }
 }
 .nav__item:first-child {

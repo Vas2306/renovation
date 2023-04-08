@@ -1,0 +1,51 @@
+.hero {
+  height: 915px;
+  background-image: url(../../images/curve-min.png);
+  background-repeat: no-repeat;
+  background-position: center;
+//   background-size: contain;
+}
+
+.hero-secondary {
+  margin-top: 174px;
+  padding-top: 15px;
+  padding-bottom: 415px;
+  background-image: url(../../images/man-min.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.hero-secondary__title {
+  font-size: 39px;
+  line-height: 1.18;
+  color: $text-white;
+  margin-bottom: 41px;
+}
+.hero-secondary__item {
+  font-size: 20px;
+  line-height: 1.19;
+  color: $text-white;
+}
+.hero-secondary__list {
+  margin-bottom: 41px;
+  padding-left: 0;
+  margin-left: 23px;
+}
+.hero-secondary__btn {
+  min-width: 250px;
+  height: 60px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.19px;
+  color: $text-white;
+  border: none;
+  background-color: $bg-btn;
+
+  border-radius: 10px;
+  &:hover,
+  &:focus {
+    box-shadow: 1px 1px 2px black, 0 0 1em #ffffff, 0 0 0.2em #ffffff;
+    border: 1px solid #ffffff;
+    // box-shadow: 2px 8px 30px $bg-btn;
+  }
+  transition: 250ms box-shadow $timing-function, 250ms border-color $timing-function;
+}
