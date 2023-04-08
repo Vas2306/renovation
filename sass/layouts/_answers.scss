@@ -1,27 +1,39 @@
-.answer__wrupper {
+.answers {
   margin-left: auto;
   margin-right: auto;
-  width: 1920px;
-  height: 887px;
+  margin-bottom: 140px;
+  max-width: 1920px;
+  padding-top: 302px;
+  padding-bottom: 351px;
+
   background-image: url(../../images/washing-min.jpg),
     url(../../images/star-min.png);
   background-repeat: no-repeat;
   background-position: left 0 top 80px, center;
+  background-size: 960px, cover;
 }
+
 .answer__block {
-  margin-left: 1050px;
-  margin-right: 300px;
-  padding-top: 302px;
+  margin-left: auto;
+  width: 570px;
 }
 .answer__title {
+  margin-bottom: 35px;
   font-size: 28px;
   font-weight: 500;
   line-height: 1.19;
   color: $text-black;
-  margin-bottom: 35px;
 }
 .answer__text {
   font-size: 15px;
   line-height: 1.19;
   margin-bottom: 35px;
 }
+.answer__btn {
+    &:hover,
+        &:focus {
+            box-shadow: 1px 1px 2px black, 0 0 1em $bg-btn, 0 0 0.2em $bg-btn;
+            border: 1px solid $bg-btn;
+          
+        }
+    }

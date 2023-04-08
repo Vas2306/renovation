@@ -241,9 +241,12 @@ img {
 .services__container {
   margin-top: 87px;
   margin-bottom: 153px;
+  display: flex;
+  justify-content: center;
 }
 
 .services__list {
+  width: 1162px;
   display: flex;
   gap: 38px;
 }
@@ -281,32 +284,103 @@ img {
   background-color: #FFFFFF;
 }
 
-.answer__wrupper {
+.answers {
   margin-left: auto;
   margin-right: auto;
-  width: 1920px;
-  height: 887px;
+  margin-bottom: 140px;
+  max-width: 1920px;
+  padding-top: 302px;
+  padding-bottom: 351px;
   background-image: url(../../images/washing-min.jpg), url(../../images/star-min.png);
   background-repeat: no-repeat;
   background-position: left 0 top 80px, center;
+  background-size: 960px, cover;
 }
 
 .answer__block {
-  margin-left: 1050px;
-  margin-right: 300px;
-  padding-top: 302px;
+  margin-left: auto;
+  width: 570px;
 }
 
 .answer__title {
+  margin-bottom: 35px;
   font-size: 28px;
   font-weight: 500;
   line-height: 1.19;
   color: #000000;
-  margin-bottom: 35px;
 }
 
 .answer__text {
   font-size: 15px;
   line-height: 1.19;
   margin-bottom: 35px;
+}
+
+.answer__btn:hover, .answer__btn:focus {
+  box-shadow: 1px 1px 2px black, 0 0 1em #00BB34, 0 0 0.2em #00BB34;
+  border: 1px solid #00BB34;
+}
+
+.reviews__container {
+  background-image: url(../../images/stars-min.png);
+  background-repeat: no-repeat;
+  background-position: top 0 left 0;
+  outline: 1px solid tomato;
+}
+
+.rewiews__wrapper {
+  width: 1173px;
+  outline: 1px solid tomato;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.reviews__title {
+  padding-top: 86px;
+  margin-bottom: 22px;
+  font-size: 28px;
+  line-height: 1.18;
+  color: #000000;
+}
+
+.reviews__text {
+  margin-bottom: 80px;
+  font-size: 25px;
+  line-height: 1.16;
+  color: #000000;
+}
+
+.reviews__list {
+  display: flex;
+  gap: 27px;
+}
+
+.reviews-card {
+  flex-basis: calc((100% - 54px) / 3);
+  outline: 1px solid green;
+}
+
+.reviews-card__name {
+  margin-bottom: 11px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  color: #000000;
+}
+
+.reviews-card__date {
+  font-size: 16px;
+  line-height: 1.19;
+  color: #585858;
+}
+
+.reviews-card__review {
+  font-size: 20px;
+  line-height: 1.3;
+  color: #000000;
+}
+
+.reviews-card__wrapper {
+  display: flex;
+  margin-bottom: 27px;
 }/*# sourceMappingURL=main.css.map */
