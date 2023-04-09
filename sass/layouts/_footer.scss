@@ -1,0 +1,40 @@
+.footer {
+  padding-top: 73px;
+  padding-bottom: 74px;
+  background-color: $bg-footer;
+}
+
+.footer__container {
+    display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+}
+.footer__wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 27px;
+}
+.footer__text--big {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.15;
+  color: $color-accent-light;
+}
+
+.footer__text--small {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.2;
+  color: $color-accent-light;
+}
+.call__logo--footer {
+  @include fillCall($color-accent-light);
+}
+.call__link--footer {
+  @include colorCall($color-accent-light);
+}
+.call__btn--footer {
+  @include colorCall($color-accent-light);
+  border: 1px solid $color-accent-light;
+}

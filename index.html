@@ -17,6 +17,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/main.min.css" />
   </head>
   <body>
@@ -128,7 +129,7 @@
         <div class="container services__container">
           <h2 class="visually-hidden">Наши услуги</h2>
           <ul class="list services__list">
-            <li class="services__item" width="97" height="97">
+            <li class="services__item" data-aos="zoom-in-right" data-aos-duration="700" width="97" height="97">
               <div class="service__logo--thumb">
                 <svg class="services__logo" width="75" height="75">
                   <use href="images/symbol.svg#minutes"></use>
@@ -139,7 +140,7 @@
                 в течение 60 мин.
               </p>
             </li>
-            <li class="services__item" width="97" height="97">
+            <li class="services__item" data-aos="zoom-in" data-aos-duration="700" width="97" height="97">
               <div class="service__logo--thumb">
                 <svg class="services__logo" width="60" height="60">
                   <use href="images/symbol.svg#interactive"></use>
@@ -150,7 +151,7 @@
                 диагностика
               </p>
             </li>
-            <li class="services__item" width="97" height="97">
+            <li class="services__item" data-aos="zoom-in" data-aos-duration="700" width="97" height="97">
               <div class="service__logo--thumb">
                 <svg class="services__logo" width="60" height="60">
                   <use href="images/symbol.svg#quality"></use>
@@ -161,7 +162,7 @@
                 комплектующими
               </p>
             </li>
-            <li class="services__item" width="97" height="97">
+            <li class="services__item" data-aos="zoom-in-left" data-aos-duration="700" width="97" height="97">
               <div class="service__logo--thumb">
                 <svg class="services__logo" width="65" height="65">
                   <use href="images/symbol.svg#guarantee"></use>
@@ -201,7 +202,7 @@
               Лучше всего они скажут об этом сами!
             </p>
             <ul class="reviews__list list">
-              <li class="reviews-card">
+              <li class="reviews-card" data-aos="zoom-in-right" data-aos-duration="700">
                
                   <div class="reviews-card__wrapper link">
                     <div class="reviews-card__data">
@@ -229,7 +230,7 @@
                     прогрессивного развития.
                   </p>
               </li>
-               <li class="reviews-card">
+               <li class="reviews-card" data-aos="zoom-in" data-aos-duration="700">
                
                   <div class="reviews-card__wrapper link">
                     <div class="reviews-card__data">
@@ -257,7 +258,7 @@
                     прогрессивного развития.
                   </p>
               </li>
-               <li class="reviews-card">
+               <li class="reviews-card" data-aos="zoom-in-left" data-aos-duration="700">
                
                   <div class="reviews-card__wrapper link">
                     <div class="reviews-card__data">
@@ -289,6 +290,37 @@
           </div>
         </div>
       </section>
+   <footer class="footer">
+    <div class="container footer__container">
+      <div class="footer__wrapper">
+        <p class="footer__text--big">Режим работы</p>
+       <p class="footer__text--small">ПН-ПТ с 07:00 до 24:00 <br>
+Сб, ВС: с 07:00 до 24:00</p>
+      </div>
+      <div>
+        <p class="footer__text--big"> &#169; 2021
+   sitename.ru</p>
+        <p class="footer__text--big">Все права защищены</p>
+       </div>
+       <div class="social">
+          <svg class="call__logo call__logo--footer" width="20" height="20">
+            <use href="images/symbol.svg#telephone"></use>
+          </svg>
+          <a class="call__link call__link--footer link" href="tel:+74957556983"
+            >+1(111) 111 11 11</a
+          >
+          <button class="call__btn call__btn--footer" type="button">Заказать звонок</button>
+        </div>
+    </div>
+
+   </footer>
     </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+  AOS.init();
+</script>
   </body>
 </html>
+
+
+

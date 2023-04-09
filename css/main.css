@@ -430,4 +430,50 @@ img {
 }
 .reviews-card__link:hover, .reviews-card__link:focus {
   transform: scale(1.2);
+}
+
+.footer {
+  padding-top: 73px;
+  padding-bottom: 74px;
+  background-color: #000000;
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 27px;
+}
+
+.footer__text--big {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.15;
+  color: #bbddff;
+}
+
+.footer__text--small {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.2;
+  color: #bbddff;
+}
+
+.call__logo--footer {
+  fill: #bbddff;
+}
+
+.call__link--footer {
+  color: #bbddff;
+}
+
+.call__btn--footer {
+  color: #bbddff;
+  border: 1px solid #bbddff;
 }/*# sourceMappingURL=main.css.map */
