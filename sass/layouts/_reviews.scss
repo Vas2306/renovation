@@ -2,7 +2,7 @@
   padding-bottom: 137px;
 }
 .reviews__container {
-  background-image: url(../../images/stars-min.png);
+  background-image: url(../images/stars-min.png);
   background-repeat: no-repeat;
   background-position: top 0 left 0;
 }
@@ -85,13 +85,13 @@
   transform: translateX(calc(-100% - 13px));
 }
 .reviews-card:first-child .reviews-card__data::before {
-  background-image: url(../../images/feed-01.png);
+  background-image: url(../images/feed-01.png);
 }
 .reviews-card:nth-child(2) .reviews-card__data::before {
-  background-image: url(../../images/feed-02.png);
+  background-image: url(../images/feed-02.png);
 }
 .reviews-card:last-child .reviews-card__data::before {
-  background-image: url(../../images/feed-03.png);
+  background-image: url(../images/feed-03.png);
 }
 .reviews-card__link {
   transition: 250ms transform $timing-function;
